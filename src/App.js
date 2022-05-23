@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import './App.css';
-import TopMenu from "./TopMenu";
-import HomePage from "./HomePage";
-import LoginPage from "./LoginPage";
-import BlogOverview from "./BlogOverview";
-import BlogPostPage from "./BlogPostPage";
+import TopMenu from "./components/TopMenu";
+import HomePage from "./pages/HomePage";
+import LoginPage from "./pages/LoginPage";
+import BlogOverview from "./pages/BlogOverview";
+import BlogPostPage from "./pages/BlogPostPage";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
